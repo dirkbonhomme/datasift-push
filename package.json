@@ -1,0 +1,30 @@
+{
+  "name": "datasift-push",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Node.js server for handling DataSift Push data over HTTP",
+  "keywords": [
+    "datasift",
+    "realtime",
+    "push",
+    "http",
+    "server"
+  ],
+  "author": "Dirk Bonhomme <dirk@bytelogic.be>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dirkbonhomme/datasift-push"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "sinon": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
