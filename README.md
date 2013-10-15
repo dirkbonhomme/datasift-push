@@ -69,7 +69,7 @@ Requires incoming requests to be authorized. Defaults to undefined.
         password: 'loremipsum'
     });
 
-### Events
+## Events
 
 #### `initialized`
 
