@@ -22,7 +22,8 @@
   "devDependencies": {
     "mocha": "*",
     "expect.js": "*",
-    "sinon": "*"
+    "sinon": "*",
+    "node-mocks-http": "*"
   },
   "engines": {
     "node": ">=0.8"
