@@ -1,6 +1,6 @@
 {
   "name": "datasift-push",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "description": "Node.js server for handling DataSift Push data over HTTP",
   "keywords": [
@@ -17,13 +17,19 @@
     "url": "git://github.com/dirkbonhomme/datasift-push"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib/server.js"
+    }
   },
   "devDependencies": {
     "mocha": "*",
     "expect.js": "*",
     "sinon": "*",
-    "node-mocks-http": "*"
+    "node-mocks-http": "*",
+    "blanket": "git://github.com/alex-seville/blanket.git#development"
   },
   "engines": {
     "node": ">=0.8"
