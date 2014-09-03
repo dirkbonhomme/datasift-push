@@ -30,7 +30,11 @@ Include it in your app:
 
 #### `hostname` (String, optional)
 
-Limit incoming requests to a certain hostname
+Limit incoming requests to a certain hostname.
+
+#### `sslKey` and `sslCert` (String or Buffer, optional)
+
+Provide both your SSL private key and certificate to start an https server.
 
 #### `port` (Number, optional)
 
